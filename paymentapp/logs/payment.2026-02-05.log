@@ -1,0 +1,154 @@
+2026-02-05 21:13:01 INFO  PAYMENT_LOGGER - Payment started
+2026-02-05 21:13:01 INFO  PAYMENT_LOGGER - razorpayKeyId: 
+2026-02-05 21:13:01 INFO  PAYMENT_LOGGER - razorpayKeySecret: 
+2026-02-05 21:13:02 ERROR PAYMENT_LOGGER - Error in payment order create
+com.razorpay.RazorpayException: BAD_REQUEST_ERROR:Authentication failed
+	at com.razorpay.ApiClient.throwException(ApiClient.java:206)
+	at com.razorpay.ApiClient.processResponse(ApiClient.java:158)
+	at com.razorpay.ApiClient.post(ApiClient.java:45)
+	at com.razorpay.OrderClient.post(OrderClient.java:7)
+	at com.razorpay.OrderClient.create(OrderClient.java:14)
+	at com.example.paymentapp.RazorpayService.createOrder(RazorpayService.java:38)
+	at com.example.paymentapp.PaymentController.createOrder(PaymentController.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2026-02-05 21:15:10 INFO  PAYMENT_LOGGER - Payment started
+2026-02-05 21:15:10 INFO  PAYMENT_LOGGER - razorpayKeyId: 
+2026-02-05 21:15:10 INFO  PAYMENT_LOGGER - razorpayKeySecret: 
+2026-02-05 21:15:10 ERROR PAYMENT_LOGGER - Error in payment order create
+com.razorpay.RazorpayException: BAD_REQUEST_ERROR:Authentication failed
+	at com.razorpay.ApiClient.throwException(ApiClient.java:206)
+	at com.razorpay.ApiClient.processResponse(ApiClient.java:158)
+	at com.razorpay.ApiClient.post(ApiClient.java:45)
+	at com.razorpay.OrderClient.post(OrderClient.java:7)
+	at com.razorpay.OrderClient.create(OrderClient.java:14)
+	at com.example.paymentapp.RazorpayService.createOrder(RazorpayService.java:38)
+	at com.example.paymentapp.PaymentController.createOrder(PaymentController.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2026-02-05 22:25:20 INFO  PAYMENT_LOGGER - Payment started
+2026-02-05 22:25:20 INFO  PAYMENT_LOGGER - razorpayKeyId: 
+2026-02-05 22:25:20 INFO  PAYMENT_LOGGER - razorpayKeySecret: 
+2026-02-05 22:37:20 INFO  PAYMENT_LOGGER - Payment started
+2026-02-05 22:37:20 INFO  PAYMENT_LOGGER - razorpayKeyId: 
+2026-02-05 22:37:20 INFO  PAYMENT_LOGGER - razorpayKeySecret: 
+2026-02-05 22:37:41 INFO  PAYMENT_LOGGER - verifySignature is called
+2026-02-05 22:39:48 INFO  PAYMENT_LOGGER - Payment started
+2026-02-05 22:39:48 INFO  PAYMENT_LOGGER - razorpayKeyId: 
+2026-02-05 22:39:48 INFO  PAYMENT_LOGGER - razorpayKeySecret: 
+2026-02-05 22:40:17 INFO  PAYMENT_LOGGER - verifySignature is called
+2026-02-05 22:51:52 INFO  PAYMENT_LOGGER - Payment started
+2026-02-05 22:51:52 INFO  PAYMENT_LOGGER - razorpayKeyId: 
+2026-02-05 22:51:52 INFO  PAYMENT_LOGGER - razorpayKeySecret: 
+2026-02-05 22:52:12 INFO  PAYMENT_LOGGER - verifySignature is called
+2026-02-05 23:37:45 INFO  PAYMENT_LOGGER - Payment started
+2026-02-05 23:37:45 INFO  PAYMENT_LOGGER - razorpayKeyId: 
+2026-02-05 23:37:45 INFO  PAYMENT_LOGGER - razorpayKeySecret: 
+2026-02-05 23:38:06 INFO  PAYMENT_LOGGER - verifySignature is called
+2026-02-05 23:46:30 INFO  PAYMENT_LOGGER - Payment started
+2026-02-05 23:46:30 INFO  PAYMENT_LOGGER - razorpayKeyId: 
+2026-02-05 23:46:30 INFO  PAYMENT_LOGGER - razorpayKeySecret: 
+2026-02-05 23:46:50 INFO  PAYMENT_LOGGER - verifySignature is called
+2026-02-05 23:55:51 INFO  PAYMENT_LOGGER - Payment started
+2026-02-05 23:55:51 INFO  PAYMENT_LOGGER - razorpayKeyId: 
+2026-02-05 23:55:51 INFO  PAYMENT_LOGGER - razorpayKeySecret: 
+2026-02-05 23:56:10 INFO  PAYMENT_LOGGER - verifySignature is called
+2026-02-05 23:59:57 INFO  PAYMENT_LOGGER - Payment started
+2026-02-05 23:59:57 INFO  PAYMENT_LOGGER - razorpayKeyId: 
+2026-02-05 23:59:57 INFO  PAYMENT_LOGGER - razorpayKeySecret: 

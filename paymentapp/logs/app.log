@@ -1,0 +1,37 @@
+2026-02-08 00:22:30 INFO  com.example.paymentapp.PaymentappApplication - Starting PaymentappApplication using Java 17.0.12 with PID 1380 (C:\Users\tejasvi.singh\eclipse-workspace\paymentapp\target\classes started by tejasvi.singh in C:\Users\tejasvi.singh\eclipse-workspace\paymentapp)
+2026-02-08 00:22:30 INFO  com.example.paymentapp.PaymentappApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-08 00:22:31 INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=665ee3a2-a2dd-3ec9-9050-16c76b8f07a9
+2026-02-08 00:22:31 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8090 (http)
+2026-02-08 00:22:31 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2026-02-08 00:22:31 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-08 00:22:31 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2026-02-08 00:22:31 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-08 00:22:31 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1043 ms
+2026-02-08 00:22:33 INFO  org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2026-02-08 00:22:33 WARN  org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-02-08 00:22:33 INFO  org.springframework.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2026-02-08 00:22:33 INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2026-02-08 00:22:33 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-02-08 00:22:33 INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2026-02-08 00:22:33 INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2026-02-08 00:22:33 INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2026-02-08 00:22:33 INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2026-02-08 00:22:33 INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2026-02-08 00:22:33 INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2026-02-08 00:22:33 INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2026-02-08 00:22:34 INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2026-02-08 00:22:34 INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2026-02-08 00:22:34 INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-02-08 00:22:34 INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1770490354044 with initial instances count: 2
+2026-02-08 00:22:34 INFO  org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry - Registering application PAYMENT-SERVICE with eureka with status UP
+2026-02-08 00:22:34 INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1770490354048, current=UP, previous=STARTING]
+2026-02-08 00:22:34 INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_PAYMENT-SERVICE/LPT6103.newgen.co.in:payment-service:8090: registering service...
+2026-02-08 00:22:34 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2026-02-08 00:22:34 INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_PAYMENT-SERVICE/LPT6103.newgen.co.in:payment-service:8090 - registration status: 204
+2026-02-08 00:22:34 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8090 (http) with context path '/'
+2026-02-08 00:22:34 INFO  org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration - Updating port to 8090
+2026-02-08 00:22:34 INFO  com.example.paymentapp.PaymentappApplication - Started PaymentappApplication in 5.069 seconds (process running for 5.96)
+2026-02-08 00:27:33 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-02-08 00:32:33 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-02-08 00:37:33 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-02-08 00:42:33 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
